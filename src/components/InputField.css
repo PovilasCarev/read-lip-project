@@ -1,0 +1,22 @@
+.form-control.custom-input {
+  margin-top: 35px;
+  text-align: center;
+  outline: none;
+  background-color: transparent; 
+  border: none; 
+  border-bottom: 2px solid rgb(237, 232, 232); 
+  border-radius: 0;
+  width: 300px;
+}
+
+.form-control.custom-input:focus {
+  outline: none; 
+  border-bottom: 2px solid rgb(237, 232, 232); 
+  background-color: transparent;
+  box-shadow: none; 
+}
+
+.form-control.custom-input::placeholder {
+  color: white; 
+  opacity: 1; 
+}

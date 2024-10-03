@@ -1,0 +1,5 @@
+.gif-image {
+    height: 350px; /* Constant height */
+    object-fit: cover; 
+  }
+  
